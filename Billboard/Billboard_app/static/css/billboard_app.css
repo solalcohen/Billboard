@@ -1,0 +1,78 @@
+.title2{
+    font-family: Anton;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+.nobox{
+    text-align: center;
+}
+.nobox div{
+    border: 1px black;
+    border-style: dashed;
+    max-width: 800px;
+    margin: auto;
+}
+button{
+    background-color: #66CDAA;
+    width: 100px;
+    height: 40px;
+    margin: 6px;
+    border-radius: 5px;
+    left: 43%;
+    position: relative;
+}
+.box {
+    left: 430px;
+    padding: 20px;
+    margin-top: 30px;
+    max-width: 800px;
+    border: 3px solid #00b7ef;
+    position: relative;
+}
+
+.titre {
+    font-family: Anton;
+    font-size: 30px;
+    color: #00b7ef;
+    margin-left:10px;
+
+}
+
+.text {
+    font-family: Arial;
+    font-size: 16px;
+    color: #c1bfc0;
+    margin-left:10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+}
+.author{
+    font-family: Pinyon script;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    padding-top: 40px;
+}
+
+.add{
+    border: 1px black;
+    border-style: dashed;
+    left: 430px;
+    padding: 10px;
+    margin-top: 30px;
+    max-width: 800px;
+    position: relative;
+
+}
+.authortoadd{
+    font-family: Pinyon script;
+    position: absolute;
+    top: 155px;
+    right: 30px;
+    padding-top: 40px;
+}
+
+
+

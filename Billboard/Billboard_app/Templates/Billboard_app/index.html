@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static '/css/billboard_app.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">=
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Billboard</title>
+</head>
+<body>
+<div class="title2">Billboard</div>
+{% for Billboard in Billboards %}
+<div class="box">
+    <span class="titre">{{ Billboard.title }}</span>
+    <div class="text">{{ Billboard.text }}</div>
+    <div class="author">{{ Billboard.author }}</div>
+</div>
+{% empty %}
+<div class="nobox">
+    <p >No messages...<br>Click the '+' button to add a new message</p>
+    <div><button class="btn"><i class="fas fa-plus"></i></button></div>
+</div>
+{% endfor %}
+<div id="toadd"></div>
+<div id='div_add' class="add">
+    <div><button class="btn" id="add"><i class="fas fa-plus"></i></button></div>
+</div>
+</body>
+    <script src="{% static '/js/billboard_app.js' %}"></script>
+
+</html>

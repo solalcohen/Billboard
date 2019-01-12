@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3346fc1a-ab96-40a7-807f-b5a4fd5ba1c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Billboard/Billboard_app/static/js/billboard_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Billboard/Billboard_app/static/js/billboard_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/static/js/billboard_app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="290">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
         </entry>
@@ -91,7 +93,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -229,12 +231,12 @@
       <workItem from="1547121019149" duration="15000" />
       <workItem from="1547121083918" duration="80000" />
       <workItem from="1547121336874" duration="108000" />
-      <workItem from="1547121576376" duration="27449000" />
+      <workItem from="1547121576376" duration="28144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27814000" />
+    <option name="totallyTimeSpent" value="28509000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -247,7 +249,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="573" y="88" width="1179" height="771" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989011" visible="true" weight="0.26737028" />
       <window_info id="Structure" order="1" sideWeight="0.50109893" side_tool="true" weight="0.26737028" />
@@ -357,8 +358,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/static/js/billboard_app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="290">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>

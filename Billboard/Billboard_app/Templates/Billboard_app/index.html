@@ -4,30 +4,58 @@
     {% load staticfiles %}
     <link rel="stylesheet" href="{% static '/css/billboard_app.css' %}">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">=
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
+    <script src="{% static '/js/billboard_app.js' %}"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <meta charset="UTF-8">
     <title>Billboard</title>
 </head>
 <body>
 <div class="title2">Billboard</div>
 {% for Billboard in Billboards %}
-<div class="box">
-    <span class="titre">{{ Billboard.title }}</span>
-    <div class="text">{{ Billboard.text }}</div>
-    <div class="author">{{ Billboard.author }}</div>
-</div>
+    <div class="box">
+        <span class="titre">{{ Billboard.title }}</span>
+        <div class="text">{{ Billboard.text }}</div>
+        <div class="author">{{ Billboard.author }}</div>
+    </div>
 {% empty %}
-<div class="nobox">
-    <p >No messages...<br>Click the '+' button to add a new message</p>
-    <div><button class="btn"><i class="fas fa-plus"></i></button></div>
-</div>
+    <div class="nobox">
+        <p>No messages...<br>Click the '+' button to add a new message</p>
+    </div>
 {% endfor %}
-<div id="toadd"></div>
 <div id='div_add' class="add">
-    <div><button class="btn" id="add"><i class="fas fa-plus"></i></button></div>
+    <div>
+        <button class="btn" id="add"><i class="fas fa-plus"></i></button>
+    </div>
 </div>
+<div id="toadd">
+    <form action="/billboard/" method="POST">
+        <div class="box" id="addbox">
+    <span class="titre">
+        <input placeholder="title" name="title" required>
+    </span>
+            <div class="text">
+                <textarea placeholder="Your message here" style="width: 750px; height: 100px;" name="text"
+                          required></textarea>
+            </div>
+            <div class="authortoadd">
+                <input placeholder="author" name="author" required>
+            </div>
+        </div>
+        <div id="drop_check" class="add">
+            <button type="submit" value="submit" id="check">
+                <i class="fas fa-check"></i>
+            </button>
+        </div>
+    </form>
+    <button id="drop" style="background: red;">
+        <i class="fas fa-times"></i>
+    </button>
+</div>
+
+
 </body>
-    <script src="{% static '/js/billboard_app.js' %}"></script>
+
 
 </html>

@@ -2,7 +2,6 @@
 from __future__ import unicode_literals
 from django.shortcuts import render
 from .models import Billboard
-from django.views.decorators.csrf import csrf_protect
 from django.views.decorators.csrf import csrf_exempt
 
 

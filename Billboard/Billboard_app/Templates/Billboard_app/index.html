@@ -13,22 +13,30 @@
 </head>
 <body>
 <div class="title2">Billboard</div>
+
+{#Take the data from the database#}
+
 {% for Billboard in Billboards %}
     <div class="box">
         <span class="titre">{{ Billboard.title }}</span>
         <div class="text">{{ Billboard.text }}</div>
         <div class="author">{{ Billboard.author }}</div>
     </div>
+
+{#If the databse is empty     #}
 {% empty %}
     <div class="nobox">
         <p>No messages...<br>Click the '+' button to add a new message</p>
     </div>
 {% endfor %}
+
+{#Button + to add a new post #}
 <div id='div_add' class="add">
     <div>
         <button class="btn" id="add"><i class="fas fa-plus"></i></button>
     </div>
 </div>
+{#Form when you choose to add a new post #}
 <div id="toadd">
     <form action="/billboard/" method="POST">
         <div class="box" id="addbox">

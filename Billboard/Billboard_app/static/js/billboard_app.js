@@ -17,6 +17,8 @@ document.getElementById('drop').onclick = function () {
 
 };
 
+// I tried to generate dynamically the form but it doesn't work because it tells me that the id didn't exist
+
 // var billboard = {}
 //
 // window.onload = function () {

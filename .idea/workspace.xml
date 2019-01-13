@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3346fc1a-ab96-40a7-807f-b5a4fd5ba1c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Billboard/Billboard/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Billboard/Billboard/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Billboard/Billboard_app/Templates/Billboard_app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Billboard/Billboard_app/Templates/Billboard_app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Billboard/Billboard_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Billboard/Billboard_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Billboard/Billboard_app/static/css/billboard_app.css" beforeDir="false" afterPath="$PROJECT_DIR$/Billboard/Billboard_app/static/css/billboard_app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Billboard/Billboard_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Billboard/Billboard_app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Billboard/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Billboard/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -20,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/static/css/billboard_app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-386">
-              <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="422">
+              <caret line="81" column="21" lean-forward="true" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -32,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="6" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -44,10 +48,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/Templates/Billboard_app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+            <state relative-caret-position="569">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
               <folding>
-                <element signature="n#style#0;n#button#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#1;n#div#0;n#form#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,19 +61,7 @@
         <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/static/js/billboard_app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Billboard/Billboard/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#643#683#0" expanded="true" />
-              </folding>
+              <caret line="19" column="98" selection-start-line="19" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -77,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="210">
+              <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -89,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="45">
               <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -102,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -134,6 +126,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>drop</find>
+      <find>button</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,12 +141,12 @@
         <option value="$PROJECT_DIR$/Billboard/Billboard/settings.py" />
         <option value="$PROJECT_DIR$/Billboard/Billboard_app/migrations/0001_initial.py" />
         <option value="$PROJECT_DIR$/Billboard/Billboard_app/forms.py" />
+        <option value="$PROJECT_DIR$/Billboard/Billboard/urls.py" />
+        <option value="$PROJECT_DIR$/Billboard/Billboard_app/static/js/billboard_app.js" />
         <option value="$PROJECT_DIR$/Billboard/Billboard_app/models.py" />
         <option value="$PROJECT_DIR$/Billboard/Billboard_app/views.py" />
-        <option value="$PROJECT_DIR$/Billboard/Billboard_app/static/js/billboard_app.js" />
         <option value="$PROJECT_DIR$/Billboard/Billboard_app/Templates/Billboard_app/index.html" />
         <option value="$PROJECT_DIR$/Billboard/Billboard_app/static/css/billboard_app.css" />
-        <option value="$PROJECT_DIR$/Billboard/Billboard/urls.py" />
       </list>
     </option>
   </component>
@@ -185,6 +178,12 @@
               <item name="Assignment" type="462c0819:PsiDirectoryNode" />
               <item name="Billboard" type="462c0819:PsiDirectoryNode" />
               <item name="Billboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assignment" type="462c0819:PsiDirectoryNode" />
+              <item name="Billboard" type="462c0819:PsiDirectoryNode" />
+              <item name="Billboard_app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,11 +256,12 @@
       <workItem from="1547315481553" duration="8508000" />
       <workItem from="1547331469468" duration="1325000" />
       <workItem from="1547333055145" duration="1713000" />
+      <workItem from="1547336834483" duration="2692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42800000" />
+    <option name="totallyTimeSpent" value="45492000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -274,8 +274,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1113" height="975" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989011" visible="true" weight="0.3015873" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989011" visible="true" weight="0.30718955" />
       <window_info id="Structure" order="1" sideWeight="0.50109893" side_tool="true" weight="0.26737028" />
       <window_info id="Favorites" order="2" sideWeight="0.50109893" side_tool="true" weight="0.26737028" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -319,9 +320,7 @@
     <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/migrations/0002_auto_20190112_2218.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/migrations/0002_auto_20190112_2218.py" />
     <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -335,49 +334,9 @@
     <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/static/css/billboard_app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-386">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/Templates/Billboard_app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="45">
           <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -388,7 +347,7 @@
     <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
@@ -398,20 +357,60 @@
     <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/static/js/billboard_app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Billboard/Billboard/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#643#683#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/static/js/billboard_app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="98" selection-start-line="19" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/Templates/Billboard_app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="n#style#0;n#button#1;n#div#0;n#form#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Billboard/Billboard_app/static/css/billboard_app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="81" column="21" lean-forward="true" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
         </state>
       </provider>
     </entry>

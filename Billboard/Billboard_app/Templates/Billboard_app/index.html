@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="{% static '/css/billboard_app.css' %}">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <script src="{% static '/js/billboard_app.js' %}"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
           integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -17,13 +18,14 @@
 {#Take the data from the database#}
 
 {% for Billboard in Billboards %}
-    <div class="box">
+    <fieldset class="box">
+        <legend class="date">{{ Billboard.date }}</legend>
         <span class="titre">{{ Billboard.title }}</span>
         <div class="text">{{ Billboard.text }}</div>
         <div class="author">{{ Billboard.author }}</div>
-    </div>
+    </fieldset>
 
-{#If the databse is empty     #}
+    {#If the databse is empty     #}
 {% empty %}
     <div class="nobox">
         <p>No messages...<br>Click the '+' button to add a new message</p>
@@ -33,14 +35,15 @@
 {#Button + to add a new post #}
 <div id='div_add' class="add">
     <div>
-        <button class="btn" id="add"><i class="fas fa-plus"></i></button>
+        <button id="add"><i class="fas fa-plus"></i></button>
     </div>
 </div>
 {#Form when you choose to add a new post #}
 <div id="toadd">
-    <form action="/billboard/" method="POST">
-        <div class="box" id="addbox">
-    <span class="titre">
+    <form action="/" method="POST">
+        <fieldset class="box" id="addbox">
+            <legend class="date">{{ date }}</legend>
+            <span class="titre">
         <input placeholder="title" name="title" required>
     </span>
             <div class="text">
@@ -50,16 +53,17 @@
             <div class="authortoadd">
                 <input placeholder="author" name="author" required>
             </div>
-        </div>
+        </fieldset>
         <div id="drop_check" class="add">
             <button type="submit" value="submit" id="check">
                 <i class="fas fa-check"></i>
             </button>
+            <button type='button' id="drop" style="background: red;">
+                <i class="fas fa-times"></i>
+            </button>
         </div>
     </form>
-    <button id="drop" style="background: red;">
-        <i class="fas fa-times"></i>
-    </button>
+
 </div>
 
 
